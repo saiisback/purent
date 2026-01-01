@@ -21,13 +21,20 @@ export default function Home() {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        minHeight: "100vh",
-        width: "100%",
+        height: "100vh",
+        width: "100vw",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
         gap: "1.5rem",
+        margin: 0,
+        padding: 0,
+        position: "fixed",
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
       }}
     >
       <h1
